@@ -1,0 +1,210 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.main-header-area {
+    background-color: #333333
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.app-header-logo {
+    width: 30%;
+    float: left;
+    margin: 0px 0px 20px 0px;
+}
+
+.app-header-logo * {
+    color: #C0BAB6;
+    margin: 0px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.app-header-search {
+    width: 70%;
+    float: left;
+    text-align: right;
+    margin-top: 15px;
+}
+
+
+.app-header-search input {
+    background-color: #232323;
+    padding: 5px 0px;
+    text-align: left;
+    width: 33%;
+    color: #C0BAB6;
+    border: #232323;
+}
+
+.app-header-search button {
+    border: 1px solid #FF9900;
+    background-color: #FF9900;
+    color: #ffffff;
+    padding: 3px 9px;
+}
+
+.app-nav-menu {
+    width: 100%;
+    float: left;
+    background-color: #232323;
+}
+
+.app-nav-menu ul {
+    list-style: none;
+}
+
+.app-nav-menu ul li {
+    float: left;
+    color: #C0BAB6;
+    padding-right: 10px;
+}
+
+.banner-area {
+    background-color: #464646;
+    margin-bottom: 35px;
+}
+
+.banner-area .banner-text {
+    width: 30%;
+    float: left;
+    background-color: #464646;
+}
+
+.banner-area .banner-image {
+    width: 70%;
+    float: left;
+    background-color: #464646;
+
+}
+
+.banner-text {
+    height: 304px;
+    padding: 25px;
+}
+
+.banner-text h1 {
+    color: #C0BAB6;
+    background-color: #464646;
+    margin-bottom: 0px;
+
+}
+
+.banner-text .banner-link {
+    text-align: right;
+}
+
+.banner-text p {
+    color: #C0BAB6;
+    background-color: #464646;
+}
+
+.banner-text p a {
+    text-align: right;
+    color: #C0BAB6;
+    background-color: #464646;
+}
+
+.app-content-area {
+    color: #979797;
+    margin-bottom: 30px;
+}
+
+.app-content-text-area {
+    width: 50%;
+    float: left;
+}
+
+.app-content-text-area h2 {
+    margin: 0px 0px 5px 0px;
+    font-style: italic;
+}
+
+.app-content-text-area p {
+    margin: 0px 0px 5px 0px;
+}
+
+
+.app-content-gridImage-area {
+    float: left;
+}
+
+.gridImage {
+    border: 1px solid lightgray;
+    margin-top: 6%;
+    padding: 8px;
+}
+
+.view-gallery {
+    text-align: center;
+}
+
+.footer-area {
+    color: #979797;
+    margin-top: 8%;
+}
+
+.footer-col1 {
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+
+.footer-col2 {
+    width: 25%;
+    float: left;
+    padding: 15px;
+
+}
+
+.footer-col3 {
+    width: 50%;
+    float: left;
+    padding: 15px;
+
+}
+
+.footer-col2 ul {
+    list-style: none;
+    padding: 0px;
+
+}
+
+.footer-col2 ul li {
+    padding-bottom: 15px;
+}
+
+.footer-title {
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.footer-image {
+    float: left;
+    margin-right: 3%;
+}
+
+.footer-link {
+    text-align: right;
+    margin-top: 5%;
+    float: right;
+}
